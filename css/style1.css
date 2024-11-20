@@ -1,0 +1,154 @@
+@media all and (max-width: 768px) {
+	.oculta-sm{
+		visibility: hidden;
+		height: 0;
+		width: 0;
+	}
+}
+
+@media all and (max-width: 992px) {
+	.oculta-md{
+		visibility: hidden;
+		height: 0;
+		width: 0;
+	}
+}
+
+.cajapubli{
+	margin-bottom: 50px;
+	padding: 5px
+}
+
+.publis{
+	background-color: #dabde4;
+	border-left: 1px solid #aaa;
+}
+
+.cajafoto{
+	margin-top: 10px;
+	box-shadow: 5px -5px 5px #aaa;
+}
+
+.ambitoinicio{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	color: #ee2f5a;
+	text-shadow: 5px -5px 5px #dbd13d;
+}
+
+.thumbnail{
+	padding-bottom: 10;
+}
+
+.aderecha{
+	text-align: right;
+}
+
+.fechasup{
+	font-size: 2em;
+}
+
+.cajaclima{
+	text-align: center;
+}
+
+.btngris {
+	background-color: gray;
+	padding: 3px;
+	border: 0;
+}
+
+.juntap{
+	margin: 0;
+}
+
+.btngris:hover{
+	background-color: red;
+}
+
+.navbar-default {
+    background-color: #ee2f5a;
+    border-color: #e7e7e7;
+}
+
+.navbar-nav li {
+	font-weight: bold;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-nav li:hover{
+	background-color: #b881cc;
+}
+
+body{
+	font: Tahoma;
+}
+
+p{margin:0;}
+
+.cajatextonoti{
+	padding: 80px;
+	background-color: #ffffff;
+}
+
+.cajavolantaNoti{
+	margin-top: 5px;
+}
+
+.bkAmbitoNoti{
+	background-color:red;
+	color: white;
+}
+
+.bkTemaNoti{
+	background-color:#ddd;
+}
+
+ .pieNota{
+	height: 20px;
+	border-top: 1px solid black;
+ }
+
+.table{
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	border-bottom: 3px solid #aaa;
+}
+
+.cajaempresa{
+	background-color:#f6d1da;	
+	padding: 10px;
+	margin: 10px;
+}
+
+.separaizq{
+	border-left: 1px solid gray;
+	margin-left: 10px;
+}
+
+.separader{
+	border-right: 1px solid gray;
+	margin-right: 10px;
+}
+
+.despizq{
+	margin-left: 0;
+}
+
+.item-task{
+	display:flex;
+	justify-content:  space-between;
+	align-items: center;
+}
+
+.item-task.finalizada{
+	opacity: 0.5;
+	text-decoration: line-through;
+}
